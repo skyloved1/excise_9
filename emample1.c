@@ -16,6 +16,7 @@ int main() {
 	{
 		printf("第一个学生大.\n");
 	}
+	sexd
 	else
 	{
 		printf("第二个学生大.\n");
