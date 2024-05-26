@@ -21,5 +21,11 @@
     <ClCompile Include="ex9-4.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="demo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9-1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
