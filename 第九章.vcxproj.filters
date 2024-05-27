@@ -30,5 +30,11 @@
     <ClCompile Include="li9-5.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="li9-7.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="li9-7指针法.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
