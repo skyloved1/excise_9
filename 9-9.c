@@ -60,12 +60,12 @@ struct Student* insert_linked_list(struct Student* head_ptr) {
 	struct Student* temp_ptr = NULL;
 	while (p1 != NULL)
 	{
-		temp_ptr = p1;
 		//寻找被插入的地址
 		if (num == p1->num)
 		{
 			break;
 		}
+		temp_ptr = p1;
 		p1 = p1->next_ptr;
 	}
 	//如果是第一个节点
@@ -76,8 +76,7 @@ struct Student* insert_linked_list(struct Student* head_ptr) {
 		return head_ptr;
 	}
 	//如果是中间的节点
-	struct Student* next_node = p1->next_ptr;
-	inserted_ptr->next_ptr = next_node;
+	inserted_ptr->next_ptr = p1;
 	temp_ptr->next_ptr = inserted_ptr;
 
 	return head_ptr;
